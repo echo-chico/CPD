@@ -39,12 +39,13 @@ $\sqrt{3x-1}+(1+x)^2$
 	* 结果C=AxB规模都为I1I2xJ1J2
 ### 张量矩阵化（matricization）
 * 意义:转化一个张量为矩阵，也称为unfloding或者flattening，是重组N维向量为一个矩阵，例如，一个2x3x4张量可以重组维6x4的矩阵或3x8的矩阵等。我们考虑mode-n矩阵化因为这是和我们讨论相关的形式。n-mode张量矩阵化X属于R(I1XI2..XIN)可以标记为X（n）
-* 		 
+	
 ---
 ### 英文翻译
 #### 单词短语
+
 |单词|翻译|
-| :- | -: |
+| :-: | :-: |
 |real-valued| adj.实值的|
 |determine  |verb.确定|
 |typical |典型；特定的|
@@ -109,4 +110,3 @@ $\sqrt{3x-1}+(1+x)^2$
 *the higher-order orthogonal iteration算法*
 ### MATLAB 代码
 	* Y = randn(m,n,p,...) ：产生随机数组
-	* 
